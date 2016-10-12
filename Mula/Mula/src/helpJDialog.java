@@ -34,12 +34,12 @@ public class helpJDialog extends javax.swing.JDialog {
         this.setLocationRelativeTo(parent);
         this.setTitle("Help");
         this.helpJTextArea.setEnabled(false);
-        this.formatHelpDoc();
         
     }
 
     
     
+ //Incomplete Under Development
     private void formatHelpDoc()
     {
         Scanner fileR = new Scanner("helpDoc.txt");
@@ -64,6 +64,8 @@ public class helpJDialog extends javax.swing.JDialog {
         this.helpJTextArea.setText(doc.toString());
         
     }
+ 
+ 
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
